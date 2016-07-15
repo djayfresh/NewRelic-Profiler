@@ -25,7 +25,7 @@
 
             _methods.AddRange(a.GetTypes()
                       .SelectMany(t => t.GetMethods())
-                      .Where(m => m.GetCustomAttributes(typeof(NewRelicProfilerAttribute), false).Length > 0));
+                      .Where(m => m.GetCustomAttributes(typeof(NewRelicProfileAttribute), false).Length > 0));
 
             //foreach (var method in _methods)
             //{

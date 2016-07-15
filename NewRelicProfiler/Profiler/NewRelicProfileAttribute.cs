@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class NewRelicProfilerAttribute : Attribute
+    public class NewRelicProfileAttribute : Attribute
     {
     }
 }
